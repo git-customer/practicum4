@@ -241,4 +241,9 @@ connect-status-storage
 customers.public.orders
 customers.public.users
 ```
-6. Проверка метрик на дашборде Grafana.
+6. Проверка метрик на дашборде Grafana.  
+Ожидаемый результат:
+
+![Screenshot 1](https://github.com/git-customer/practicum4/blob/9dcfb5f391f34e272f300dabce22796e9fc7163d/screenshots/grafana-1.png)
+
+![Screenshot 2](https://github.com/git-customer/practicum4/blob/9dcfb5f391f34e272f300dabce22796e9fc7163d/screenshots/grafana-2.png)
