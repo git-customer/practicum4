@@ -1,0 +1,12 @@
+services:
+  client:
+    build: .
+    command: python client.py
+    networks:
+      - kafka_shared_network
+    hostname: "client"
+
+networks:
+  kafka_shared_network:
+    external: true
+    name: docker_kafka_shared_net
